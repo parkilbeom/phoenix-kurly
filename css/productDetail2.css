@@ -65,7 +65,8 @@ a {
   font-size: 28.43px;
   font-weight: var(--text-700);
 }
-.why-karly__title::before{
+/* why-karly아이콘 */
+.why-karly__check-title::before{
   content: "";
   display: block;
   width: 40px;
@@ -74,7 +75,40 @@ a {
   background: url(../client/assets/icons/Icon/01_check.svg) 50% 50% no-repeat;
 }
 
-.why-karly__title{
+.why-karly__only-title::before{
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0px auto 16px;
+  background: url(../client/assets/icons/Icon/02_only.svg) 50% 50% no-repeat;
+}
+.why-karly__cold-title::before{
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0px auto 16px;
+  background: url(../client/assets/icons/Icon/03_cold.svg) 50% 50% no-repeat;
+}
+.why-karly__price-title::before{
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0px auto 16px;
+  background: url(../client/assets/icons/Icon/04_price.svg) 50% 50% no-repeat;
+}
+.why-karly__eco-title::before{
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0px auto 16px;
+  background: url(../client/assets/icons/Icon/05_eco.svg) 50% 50% no-repeat;
+}
+/* why-karly 타이틀 */
+.why-karly__check-title{
   font-size: var(--text-lg);
   font-weight: var(--text-700);
   color: var(--primary-color);
@@ -82,7 +116,39 @@ a {
   line-height: 27px;
   text-align: center;
 }
-
+.why-karly__only-title{
+  font-size: var(--text-lg);
+  font-weight: var(--text-700);
+  color: var(--primary-color);
+  display: block;
+  line-height: 27px;
+  text-align: center;
+}
+.why-karly__cold-title{
+  font-size: var(--text-lg);
+  font-weight: var(--text-700);
+  color: var(--primary-color);
+  display: block;
+  line-height: 27px;
+  text-align: center;
+}
+.why-karly__price-title{
+  font-size: var(--text-lg);
+  font-weight: var(--text-700);
+  color: var(--primary-color);
+  display: block;
+  line-height: 27px;
+  text-align: center;
+}
+.why-karly__eco-title{
+  font-size: var(--text-lg);
+  font-weight: var(--text-700);
+  color: var(--primary-color);
+  display: block;
+  line-height: 27px;
+  text-align: center;
+}
+/* why-karly 본문 */
 .why-karly__desc{
   display: block;
   padding-top: 24px;
