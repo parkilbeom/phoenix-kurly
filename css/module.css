@@ -1,16 +1,17 @@
 :root {
-  /* color  */
+  /* color */
   --purple: #5f0080;
   --white: #fff;
   --black: #333;
   --dark-grey: #898989;
   --grey: #999;
   --orange: #fa622f;
+  --light-gray: #e1e1e1;
 
   --primary-color: var(--purple);
   --accent-color: var(--orange);
 
-   /* space   */
+  /* space  */
   --spacing-sxxs: 2px;
   --spacing--xxs: 4px;
   --spacing-xs: 8px;
@@ -30,6 +31,7 @@
   --minus-spacing-xl: -32px;
 
   /* font-size */
+  --text-xxs: 10px;
   --text-xs: 12px;
   --text-sm: 14px;
   --text-base: 16px;
@@ -41,4 +43,40 @@
   --text-400: 400;
   --text-600: 600;
   --text-700: 700;
+}
+
+.gradient-effect {
+  background: #ccc linear-gradient(to bottom, #ccc, #eee);
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.accent-color {
+  color: #e85e2c;
+}
+
+.text-xl {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.margin-top-default {
+  margin-top: 20px;
+}
+.margin-top-thin {
+  margin-top: 5px;
+}
+.margin-top-normal {
+  margin-top: 10px;
+}
+.margin-top-large {
+  margin-top: 15px;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+.margin-top-15 {
+  margin-top: 15px;
 }

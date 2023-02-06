@@ -1,0 +1,86 @@
+@import url(./reset.css);
+@import url(./module.css);
+
+/* 숨김 콘텐츠 */
+.a11y-hidden,
+legend {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: polygon(0 0, 0 0, 0 0);
+}
+
+/* 본문 스타일 */
+body {
+  /* width: 1920px; */
+  color: var(--black);
+  font-size: normal;
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+/* 기본 스타일 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+/* 링크 스타일 */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+/* 상세페이지 */
+.more-infomation__why-karly{
+  /* background-color:gray; */
+  text-align: center;
+  width: 1050px;
+  margin: auto;
+  border-top: 1px;
+  margin-bottom: 91px;
+}
+.why-karly__wrapper{
+  color: var(--primary-color);
+  display: flex;
+  margin: 0,auto;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+.why-karly__content{
+  display: flex;
+  width: 315px;
+  padding-top: 59p
+  /* flex-wrap: wrap; */
+}
+
+.why-karly__header{
+  color:  var(--black);
+  font-size: 28.43px;
+  font-weight: var(--text-700);
+}
+
+.why-karly__title{
+  background-color: skyblue;
+  font-size: var(--text-lg);
+  font-weight: var(--text-700);
+  color: var( --primary-color);
+  align-items: center;
+  line-height: 150%;
+}
+
+.why-karly__desc{
+  background-color: yellowgreen;
+  color: var(--black);
+  font-size: var(--text-base);
+  text-align: center;
+  height: 104px;
+}
+/* 장바구니 */
+
